@@ -1,0 +1,10 @@
+{
+  "sensor-1": {"jid": "sensor-1@localhost", "password": "change-me"},
+  "sensor-2": {"jid": "sensor-2@localhost", "password": "change-me"},
+  "drone-north": {"jid": "drone-north@localhost", "password": "change-me"},
+  "drone-south": {"jid": "drone-south@localhost", "password": "change-me"},
+  "irrigation-west": {"jid": "irrigation-west@localhost", "password": "change-me"},
+  "irrigation-east": {"jid": "irrigation-east@localhost", "password": "change-me"},
+  "logistics-fertilizer": {"jid": "logistics@localhost", "password": "change-me"},
+  "harvester-alpha": {"jid": "harvester@localhost", "password": "change-me"}
+}

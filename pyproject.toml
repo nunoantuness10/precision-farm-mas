@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "precision-farm-mas"
+version = "0.1.0"
+description = "Decentralized multi-agent precision agriculture simulation"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Nuno Antunes"}]
+dependencies = ["pandas>=2.1,<3", "plotly>=5.20,<7", "streamlit>=1.40,<2"]
+
+[project.optional-dependencies]
+spade = ["spade>=4,<5"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+precision-farm = "precision_farm.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/precision_farm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF"]
+

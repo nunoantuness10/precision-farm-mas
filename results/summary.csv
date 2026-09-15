@@ -1,0 +1,6 @@
+scenario,final_health,harvested_yield,water_used,fertilizer_used,fuel_used,completed_tasks,messages,average_response_time
+normal,93.0967,672.5914,522,24,34.5026,39,2163,1.0
+drought,92.4210,671.6082,648,24,41.9944,46,2222,1.0
+pest,91.6237,653.1521,522,36,35.1220,40,2167,1.0
+failure,93.0967,672.5914,522,24,36.8340,39,2141,1.0
+mixed,92.8882,661.2514,630,36,43.9220,46,2175,1.0
